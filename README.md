@@ -1,115 +1,141 @@
-🔗 **Live Demo (Power BI):**  
-[View Dashboard](https://bit.ly/3Qadvjk)
+# 🚀 Customer Churn Prediction & Retention Analytics (SaaS)
 
-🔗 **GitHub Repository:**  
-https://github.com/RuiCDev
+🔗 **Live Dashboard (Power BI):**  
+https://bit.ly/3Qadvjk
 
-🚀 🚀 SaaS Customer Retention & Churn Prediction (End-to-End Analytics Project)
-📌 Project Overview
+---
 
-This project delivers an end-to-end analytics solution focused on customer retention and churn prediction in a subscription-based (SaaS) business model.
+## 📌 Business Problem
 
-Using Python, Machine Learning, and Power BI, the project transforms raw customer data into actionable insights to support product and business decisions.
+Customer churn is one of the biggest challenges in subscription-based (SaaS) businesses, directly impacting revenue and growth.
+
+Companies need to identify high-risk customers early and understand the key drivers behind churn to improve retention strategies.
+
+---
+
+## 🎯 Objective
+
+Develop an end-to-end analytics solution to:
+
+- Identify customers at high risk of churn  
+- Understand the key factors influencing churn behavior  
+- Enable data-driven retention strategies  
+- Support product and business decision-making  
+
+---
+
+## 🧠 Solution Overview
+
+This project combines **data analysis, machine learning, and business intelligence** to transform raw customer data into actionable insights.
+
+Key components:
+
+- Exploratory data analysis to understand customer behavior  
+- Feature engineering to enhance predictive power  
+- Logistic Regression model to predict churn probability  
+- Interactive Power BI dashboard for business monitoring  
 
 ---
 
 ## 🛠️ Tech Stack
-* Python: Pandas, NumPy, Seaborn
-* Machine Learning: Scikit-learn (Logistic Regression)
-* Data Visualization: Power BI
-* Data Modeling: Feature Engineering & Segmentation
+
+- Python (Pandas, NumPy)
+- Scikit-learn (Logistic Regression)
+- Power BI (Data Visualization, DAX)
+- SQL-style data modeling & segmentation
 
 ---
 
 ## 📂 Dataset  
-[Telco Customer Churn Dataset (Kaggle)](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) 
+
+Telco Customer Churn Dataset (Kaggle)
 
 ---
 
-## 🚀 How to Run
+## 🔍 Analytical Approach
 
-1. Clone this repository: `git clone https://github.com/RuiCDev/SaaS-Customer-Retention-Analysis.git`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the Jupyter Notebooks in the `notebooks/` folder to see the ML workflow.
-4. Open `dashboard/dashboard.pbix` to explore the Power BI report.
+### 1. Exploratory Data Analysis (EDA)
+- Churn vs Non-Churn comparison  
+- Distribution analysis (Tenure, Monthly Charges)  
+- Correlation analysis  
+- Statistical testing (Chi-square)  
 
----
+### 2. Feature Engineering
+- Revenue proxies (avg_revenue)  
+- Customer lifecycle segmentation (tenure_group)  
+- Categorical encoding  
 
-## 🔍 Key Analysis Steps
-1. Exploratory Data Analysis (EDA)
-* Customer behavior comparison (Churn vs Non-Churn)
-* Distribution analysis (Tenure, Monthly Charges)
-* Correlation analysis (heatmap)
-* Statistical testing (Chi-square)
-2. Feature Engineering
-Created:
-* avg_revenue
-* tenure_group
-* Encoded categorical variables
-3. Machine Learning Model
-Model: Logistic Regression
-* ROC-AUC: ~0.79
-* Accuracy: ~75%
-Key Drivers of Churn:
-* Contract type (strongest predictor)
-* Tenure (early lifecycle risk)
-* Monthly Charges (price sensitivity)
+### 3. Machine Learning Model
+- Model: Logistic Regression  
+- ROC-AUC: ~0.79  
+- Accuracy: ~75%  
 
 ---
 
-# 📊 Power BI Dashboard
-Key KPIs:
-* Churn Rate
-* Total Customers
-* Total Churners
-* % High-Risk Customers
-Key Visuals:
-* Churn Rate by Contract Type
-* Churn vs Monthly Charges
-* Churn Trend by Tenure
-* Risk Segmentation (Low / Medium / High)
+## 📊 Dashboard (Power BI)
+
+This dashboard enables business teams to monitor churn risk and prioritize retention actions.
+
+### Key KPIs:
+- Churn Rate  
+- Total Customers  
+- Total Churners  
+- % High-Risk Customers  
+
+### Key Insights Visualized:
+- Churn Rate by Contract Type  
+- Churn vs Monthly Charges  
+- Churn Trend by Tenure  
+- Customer Risk Segmentation  
 
 ---
 
-## 💡 Business Insights
-* Contract Risk: Month-to-month customers show significantly higher churn rates
-* Critical Retention Window: First 12 months are key to retention
-* Price Sensitivity: High-paying customers churn more frequently
-* Risk Segmentation: ML-driven segmentation enables proactive retention strategies
+## 💡 Key Business Insights
+
+- **Contract Type:** Month-to-month customers have significantly higher churn risk  
+- **Customer Lifecycle:** First 12 months are critical for retention  
+- **Price Sensitivity:** Higher monthly charges correlate with increased churn  
+- **Risk Segmentation:** Enables targeted retention campaigns  
 
 ---
 
 ## 🎯 Business Impact
 
-This project demonstrates how data can be used to:
+This solution demonstrates how data analytics can:
 
-* Identify high-risk customers
-* Improve retention strategies
-* Support product decision-making
-* Enable data-driven growth
-
----
-
-## 📸 Dashboard Preview
-### Main Dashboard
-![Dashboard](screenshots/dashboard.png)
-
-### Churn Rate by Contract
-![Churn by Contract](screenshots/churn_rate_by_contract.png)
-
-### Risk Segmentation
-![Risk Segmentation](screenshots/risk_segmentation.png)
+- Identify high-risk customers early  
+- Support targeted retention strategies  
+- Reduce potential revenue loss  
+- Improve product and pricing decisions  
 
 ---
 
 ## 📈 Key Results
-• Achieved ~0.79 ROC-AUC using Logistic Regression  
-• Identified contract type and tenure as strongest churn predictors  
-• Built ML-driven risk segmentation for proactive retention  
+
+- Achieved ~0.79 ROC-AUC with Logistic Regression  
+- Identified key churn drivers (contract, tenure, pricing)  
+- Built ML-driven customer risk segmentation  
 
 ---
 
+## 📸 Dashboard Preview
+
+![Dashboard](screenshots/dashboard.png)
+![Churn by Contract](screenshots/churn_rate_by_contract.png)
+![Risk Segmentation](screenshots/risk_segmentation.png)
+
 ---
+
+## 🚀 How to Run
+
+1. Clone repository  
+2. Install dependencies  
+3. Run notebooks  
+4. Open Power BI dashboard  
+
+---
+
 ## ✉️ Contact
-* **LinkedIn:** [Rui Cristovam](https://www.linkedin.com/in/ruipc/)
-* **GitHub Portfolio:** [RuiCDev](https://github.com/RuiCDev)
+
+- LinkedIn: https://www.linkedin.com/in/ruipc/  
+- GitHub: https://github.com/RuiCDev  
