@@ -1,5 +1,5 @@
 🔗 **Live Demo (Power BI):**  
-[View Dashboard](https://app.powerbi.com/Redirect?action=openreport&context=Annotate&ctid=eb639b88-1a6d-4c27-9b09-49814f9ffa01&pbi_source=mobile_android&groupObjectId=9afe6ce7-c6a2-4138-a773-ef312e29ec6d&reportObjectId=1d9ee6a1-0eaf-4f37-939f-953a27945dfa)
+[View Dashboard](https://bit.ly/3Qadvjk)
 
 🔗 **GitHub Repository:**  
 https://github.com/RuiCDev
